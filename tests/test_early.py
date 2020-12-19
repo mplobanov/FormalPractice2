@@ -1,6 +1,6 @@
-from ..Early.Eaerly import *
+from ..Early.Early import *
 from ..Early.Configuration import Configuration
-from ..Grammar import Grammar
+from Early.Grammar import Grammar
 
 
 def test_scan_ordinary():

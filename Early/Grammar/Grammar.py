@@ -15,7 +15,7 @@ class Grammar:
 
     def add_rule(self, start: str, finish: str):
         assert start.isalpha() and start.isupper()
-        assert finish.isalpha()
+        assert finish.isalpha() or not finish
         if start in self.rules:
             self.rules[start].append(finish)
         else:

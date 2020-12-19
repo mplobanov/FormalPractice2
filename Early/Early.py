@@ -1,5 +1,5 @@
 from .Configuration import Configuration
-from ..Grammar import Grammar
+from .Grammar.Grammar import Grammar
 from typing import List, NoReturn, Set
 from copy import deepcopy
 
