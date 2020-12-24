@@ -1,0 +1,9 @@
+idea/*
+venv/*
+.pytest_cache/*
+tests/pytest_cache/*
+.coverage
+htmlcov/*
+__pycache__/*
+Early/__pycache__/*
+Early/Grammar/__pycache__/*
